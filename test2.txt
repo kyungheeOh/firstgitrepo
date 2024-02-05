@@ -1,4 +1,0 @@
-[BP-개발] [전사 GA4/MMP 솔루션 도입 프로젝트] 아모레몰(웹/앱) 개발 작업 요청
-http://jira-digit.amorepacific.com:8080/browse/APM-32890
-
-STG 배포되었습니다. 
