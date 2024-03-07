@@ -49,6 +49,10 @@ gitHub 우측 상단 [+] Create a new repository
 git remote add origin https://github.com/kyungheeOh/firstgitrepo
 "origin"은 별칭임. 하지만 일반적으로 사용하는 명
 git remote -v (연동확인)
+>확인결과 
+origin  https://github.com/kyungheeOh/kh (fetch)
+origin  https://github.com/kyungheeOh/kh (push)
+아무것도 안뜨면 연동안된 상태
 
 git push origin master (원격저장소 저장)
 
@@ -207,12 +211,23 @@ master > develop > feature, feature, feature..... > develop merge > release qa >
 Working directory >[git add]> staging Area >[git commit]> Repository
 ----------------------------------------------------------------
 
+* 명령어
 
+현재 폴더 경로 조회 : pwd
+현재 폴더 조회 : ls , ll
+폴더 이동 : cd /Desktop/kh
+git 업로드(폴더,파일 다 가능)
+$ git add Goal세팅,성과검토_workday/
+$ git commit -m "workday작성"
+$ git push origin master
 
+ warning case
+ 메세지 : LF will be replaced by CRLF the next time Git touches it
+ git config --global core.autocrlf true
 
-
-
-
+push fail
+폴더 하위의 모든 파일 삭제
+$ git rm --cached P포인트
 
 
 
