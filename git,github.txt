@@ -229,6 +229,13 @@ push fail
 폴더 하위의 모든 파일 삭제
 $ git rm --cached P포인트
 
+새폴더에 clone하기
+상위폴더 위치에서 
+git clone https://github.com/kyungheeOh/firstgitrepo.git
+
+git clone https://github.com/kyungheeOh/kh.git
+
+
 
 
 
